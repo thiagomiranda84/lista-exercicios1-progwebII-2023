@@ -8,11 +8,11 @@
 	if ($h <= 4) {
 		$mensagem = "Vá Dormir, está de Madrugada.";
 	} elseif ($h <= 12) {
-		$mensagem = "Bom dia, ${nome}";
+		$mensagem = "Bom dia, {$nome}";
 	} elseif ($h <= 18) {
-		$mensagem = "Boa Tarde, ${nome}";
+		$mensagem = "Boa Tarde, {$nome}";
 	} else {
-		$mensagem = "Boa Noite, ${nome}";
+		$mensagem = "Boa Noite, {$nome}";
 	}
 
 ?>
